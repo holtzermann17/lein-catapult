@@ -5,10 +5,10 @@
             :url "http://www.opensource.org/licenses/BSD-3-Clause"
             :distribution :repo }
 
-  :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.clojure/core.async "0.1.267.0-0d7780-alpha"]
-                 [org.clojure/tools.nrepl "0.2.3"]
-                 [com.cemerick/drawbridge "0.0.6"]
-                 [me.raynes/fs "1.4.5"]]
+  :dependencies [[org.clojure/clojure "1.10.1"]
+                 [org.clojure/core.async "0.4.474"]
+                 [nrepl/nrepl      "0.6.0"]
+                 [nrepl/drawbridge "0.2.1"]
+                 [me.raynes/fs "1.4.6"]]
 
   :eval-in-leiningen true)
