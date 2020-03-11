@@ -1,8 +1,8 @@
 (ns leiningen.catapult
   "Proxy TCP/IP nREPL connections to Drawbridge."
   (:require [clojure.core.async :refer [<!! >!! alt!! chan close! put! thread timeout]]
-            [cemerick.drawbridge.client :refer [ring-client-transport]]
-            [clojure.tools.nrepl.transport :as t]
+            [drawbridge.client :refer [ring-client-transport]]
+            [nrepl.transport :as t]
             [me.raynes.fs :as fs])
   (:import (java.net ServerSocket)))
 
